@@ -19,8 +19,8 @@ Puedes usar este modelo para:
 
 #### 📊 Precisión del Modelo
 
-* **Precisión en Validación:**
-  ![Gráfica de metricas](metrics/metrics_mask_classifier.pth.png)
+* **Precisión y pérdida:**
+  ![Gráfica de métricas](metrics/metrics_mask_classifier.pth.png)
 
 ---
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 3. **Instala PyTorch y torchvision:**
    Visita [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) y copia el comando según tu sistema operativo, versión de Python y soporte CUDA.
 
-4. (Opcional) **Utiliza el modelo entrenado en la carpeta checkpoints** o entrena el tuyo propio usando `train.py`. Puede descargar el dataset utilizado en este proyecto de: https://www.kaggle.com/datasets/spandanpatnaik09/face-mask-detectormask-not-mask-incorrect-mask e incluir las carpetas de las distintas clases en el directorio de dataset (crear si es necesario)
+4. (Opcional) **Utiliza el modelo entrenado en la carpeta checkpoints** o entrena el tuyo propio usando `train.py`. Puede descargar el dataset utilizado en este proyecto de: https://www.kaggle.com/datasets/spandanpatnaik09/face-mask-detectormask-not-mask-incorrect-mask e incluir las carpetas de las distintas clases en el directorio de "dataset" (crear si es necesario)
 
 ---
 
@@ -100,7 +100,7 @@ You can use this model to:
 
 #### 📊 Performance Plot
 
-* **Validation Accuracy:**
+* **Accuracy & Loss:**
   ![Metrics Plot](metrics/metrics_mask_classifier.pth.png)
 
 ---
@@ -133,7 +133,7 @@ pip install -r requirements.txt
 3. **Install PyTorch and torchvision:**
    Visit [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) and copy the correct command for your OS, Python version, and CUDA version.
 
-4. (Optional) **Use the provided trained model inside the checkpoints folder** or train your own using `train.py`. You can download the dataset used in this project from: https://www.kaggle.com/datasets/spandanpatnaik09/face-mask-detectormask-not-mask-incorrect-mask and place the class folders inside the dataset directory (create if needed)
+4. (Optional) **Use the provided trained model inside the checkpoints folder** or train your own using `train.py`. You can download the dataset used in this project from: https://www.kaggle.com/datasets/spandanpatnaik09/face-mask-detectormask-not-mask-incorrect-mask and place the class folders inside the "dataset" directory (create if needed)
 
 ---
 
